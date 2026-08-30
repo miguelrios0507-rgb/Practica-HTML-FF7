@@ -1,0 +1,12 @@
+.rectangle
+{
+    height: 50px;
+    width: 150px;
+    background-color: #769aa6;
+}
+
+.title {
+            text-align: center;
+            font-size: 30px;
+            color: #cbd9dc;
+        }
