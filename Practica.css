@@ -2,11 +2,7 @@
 {
     height: 50px;
     width: 150px;
-    background-color: #769aa6;
+    background-color: #3a3e41;
+    border-radius: 10px;
 }
 
-.title {
-            text-align: center;
-            font-size: 30px;
-            color: #cbd9dc;
-        }
