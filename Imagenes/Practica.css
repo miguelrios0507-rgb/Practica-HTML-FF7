@@ -1,0 +1,26 @@
+.rectangle
+{
+    height: 50px;
+    width: 150px;
+    background-color: #3a3e41;
+    border-radius: 10px;
+}
+
+.title {
+            text-align: center;
+            font-size: 30px;
+            color: #cbd9dc;
+        }
+
+.titles {
+
+            text-align: left;
+            font-size: 30px;
+            color: #cbd9dc;
+        }
+        
+
+
+.diagonal-gradient {
+  background: linear-gradient(to bottom right, #6f97a1, #c0d4d5);
+}
