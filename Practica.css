@@ -1,26 +1,28 @@
-.rectangle
-{
-    height: 50px;
-    width: 150px;
+.rectangle {
+    height: 65px;
+    width: 220px;
     background-color: #3a3e41;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .title {
-            text-align: center;
-            font-size: 30px;
-            color: #cbd9dc;
-        }
+    font-size: 32px;
+    color: #cbd9dc;
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
 .titles {
-
-            text-align: left;
-            font-size: 30px;
-            color: #cbd9dc;
-        }
+    text-align: left;
+    font-size: 30px;
+    color: #cbd9dc;
+    border-bottom: 2px solid #6f97a1;
+    padding-bottom: 8px;
+}
         
-
-
 .diagonal-gradient {
-  background: linear-gradient(to bottom right, #6f97a1, #c0d4d5);
+    background: linear-gradient(to bottom right, #23353b, #6f97a1, #c0d4d5);
+    background-attachment: fixed;
+    min-height: 100vh;
 }

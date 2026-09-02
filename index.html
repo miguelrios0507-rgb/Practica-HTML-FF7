@@ -1,73 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="Miguel Rios" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Miguel Rios">
   <title>Final Fantasy</title>
-  <link rel="Stylesheet" type="text/css" href="Practica.css">
-  <link rel="Stylesheet" type="text/css" href="Botstrap/css/bootstrap-utilities.rtl.css">
+  <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Practica.css">
 </head>
-<body class="diagonal-gradient">
-  <div class="rectangle">
-  <h1 class= "title" class=".text-bg-primary">Que es?</h1>
-  </div>
-  <br>
+<body class="diagonal-gradient text-light">
 
-    <p>Final Fantasy VII (ファイナルファンタジーVII Fainaru Fantajī Sebun?) es un videojuego de rol desarrollado y publicado por la empresa Square para la plataforma PlayStation. 
+  <div class="container py-5">
+    
+    <div class="rectangle d-flex justify-content-center align-items-center mb-4">
+      <h1 class="title m-0">Que es?</h1>
+    </div>
+
+    <p class="lead">
+      Final Fantasy VII (ファイナルファンタジーVII Fainaru Fantajī Sebun?) es un videojuego de rol desarrollado y publicado por la empresa Square para la plataforma PlayStation. 
       Publicado en 1997, se trata de la séptima entrega de la serie Final Fantasy y la primera de la saga en presentar gráficos tridimensionales, mostrando personajes completamente renderizados sobre escenarios prerrenderizados. 
       El argumento de Final Fantasy VII se centra en el protagonista Cloud Strife, un mercenario que inicialmente se une al grupo ecoterrorista AVALANCHA para detener el control mundial de la corporación Shinra 
       que está drenando la vida del planeta para usarla como fuente de energía. 
-      Conforme la historia avanza, Cloud y sus aliados se ven envueltos en un conflicto que representa una amenaza aún mayor para el mundo, enfrentándose a Sefirot, el antagonista principal del juego.</p>
-<br>
-    <h2 class="titles" class=".text-bg-primary">Versiones</h2>
-    <p> 
-<ul>
-    <li>Final Fantasy VII Clasico</li>
-    <li>Final Fantasy VII Remake</li>
-    <li>Final Fantasy VII Rebirth</li>
-    <li>Final Fantasy Revelationss</li>
-</ul>
+      Conforme la historia avanza, Cloud y sus aliados se ven envueltos en un conflicto que representa una amenaza aún mayor para el mundo, enfrentándose a Sefirot, el antagonista principal del juego.
     </p>
 
-    <h3 class="titles" class=".text-bg-primary">Personajes</h3>
-    <p>
-    <table>
-        
-        <tr>
-            
+    <h2 class="titles mt-5 mb-3">Versiones</h2>
+    <ul class="list-group list-group-flush bg-transparent w-50 mb-5">
+      <li class="list-group-item bg-transparent text-light border-light">Final Fantasy VII Clasico</li>
+      <li class="list-group-item bg-transparent text-light border-light">Final Fantasy VII Remake</li>
+      <li class="list-group-item bg-transparent text-light border-light">Final Fantasy VII Rebirth</li>
+      <li class="list-group-item bg-transparent text-light border-light">Final Fantasy Revelationss</li>
+    </ul>
+
+    <h3 class="titles mb-4">Personajes</h3>
+    <div class="table-responsive mb-5">
+      <table class="table table-dark table-hover table-bordered align-middle">
+        <thead>
+          <tr class="text-center">
             <th>Personaje</th>
             <th>Imagen</th>
             <th>Descripcion</th>
-        </tr>
-        
-        <tr>
-            
-            <td>Cloud Strife</td>
-            <td><img src="Imagenes/Cloud-FF7-Model.webp"></td>
-            <td>Cloud Strife es un personaje central de los títulos de Compilation of Final Fantasy VII, 
-              siendo el protagonista principal de Final Fantasy VII y su remake</td>
-        </tr>
-        <tr>
-            <td>Tifa Lockhart</td>
-            <td><img src="Imagenes/Tifa-ffvii-field.webp"></td>
-            <td>es un personaje principal y jugable de Final Fantasy VII. Experta en artes marciales, Tifa es una miembro del grupo resistente conocido como AVALANCHA, 
-              con el objetivo de acabar con la Compañía de Energía Eléctrica Shinra</td>
-        </tr>
-        <tr>
-            <td>Sefirot</td>
-            <td><img src="Imagenes/Sephiroth-ffvii-field.webp"></td>
-            <td>Sefirot (Sephiroth en inglés, セフィロス, Sefirosu en japonés) es el antagonista principal de Final Fantasy VII,
-               y uno de los antagonistas más relevantes de su universo expandido.</td>
-        </tr>
-       
-        
-    </table>
-    </p>
-    <h4>Para mas informacion visitar la pagina de <a href="https://www.square-enix-games.com/es_XL/home">Square Enix</a></h4>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="fw-bold text-center">Cloud Strife</td>
+            <td class="text-center" style="width: 200px;">
+              <img src="Imagenes/Cloud-FF7-Model.webp" alt="Cloud Strife" class="img-fluid rounded">
+            </td>
+            <td>Cloud Strife es un personaje central de los títulos de Compilation of Final Fantasy VII, siendo el protagonista principal de Final Fantasy VII y su remake.</td>
+          </tr>
+          <tr>
+            <td class="fw-bold text-center">Tifa Lockhart</td>
+            <td class="text-center">
+              <img src="Imagenes/Tifa-ffvii-field.webp" alt="Tifa Lockhart" class="img-fluid rounded">
+            </td>
+            <td>Es un personaje principal y jugable de Final Fantasy VII. Experta en artes marciales, Tifa es una miembro del grupo resistente conocido como AVALANCHA, con el objetivo de acabar con la Compañía de Energía Eléctrica Shinra.</td>
+          </tr>
+          <tr>
+            <td class="fw-bold text-center">Sefirot</td>
+            <td class="text-center">
+              <img src="Imagenes/Sephiroth-ffvii-field.webp" alt="Sefirot" class="img-fluid rounded">
+            </td>
+            <td>Sefirot (Sephiroth en inglés, セフィロス, Sefirosu en japonés) es el antagonista principal de Final Fantasy VII, y uno de los antagonistas más relevantes de su universo expandido.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h4 class="mt-4">
+      Para mas informacion visitar la pagina de <a href="https://www.square-enix-games.com/es_XL/home" class="text-info text-decoration-none fw-bold">Square Enix</a>
+    </h4>
+
+  </div>
     
-  
 </body>
 </html>
-
-
 
